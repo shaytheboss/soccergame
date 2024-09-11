@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Soccer Web Game</h1>
+        <div class="scoreboard">
+            <p>Team A: <span id="teamA-score">0</span></p>
+            <p>Team B: <span id="teamB-score">0</span></p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="field">
+            <div class="goal teamA-goal"></div>
+            <div class="players">
+                <div class="player teamA-player" id="teamA-player1"></div>
+                <div class="player teamB-player" id="teamB-player1"></div>
+            </div>
+            <div class="goal teamB-goal"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Soccer Web Game</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
